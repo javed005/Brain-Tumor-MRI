@@ -1,0 +1,16 @@
+{
+  "model_name": "mobilenet_v2",
+  "class_names": [
+    "glioma",
+    "meningioma",
+    "no_tumor",
+    "pituitary"
+  ],
+  "image_size": 224,
+  "input_range": "0..255; normalization is inside the saved model",
+  "resize": "PIL bilinear with EXIF correction and RGB conversion",
+  "selection": "highest validation macro F1; validation accuracy and parameter count break ties",
+  "pretrained_weights": "imagenet",
+  "seed": 42,
+  "clinical_validation": false
+}
