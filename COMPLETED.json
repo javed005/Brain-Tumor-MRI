@@ -1,0 +1,12 @@
+{
+  "selected_model": "mobilenet_v2",
+  "models": [
+    "custom_cnn",
+    "mobilenet_v2",
+    "efficientnet_b0"
+  ],
+  "pretrained_weights": "imagenet",
+  "software_test_mode": false,
+  "retained_images": 2091,
+  "completed_utc": "2026-10-13T04:50:41.665736+00:00"
+}
