@@ -1,0 +1,41 @@
+[
+  {
+    "model": "custom_cnn",
+    "validation_accuracy": 0.2881002087682672,
+    "validation_macro_f1": 0.11183144246353323,
+    "parameters": 423268,
+    "training_seconds": 218.90305346399987,
+    "test_accuracy": 0.3168724279835391,
+    "test_macro_precision": 0.07921810699588477,
+    "test_macro_recall": 0.25,
+    "test_macro_f1": 0.1203125,
+    "inference_ms": 20.683375500038892,
+    "selected": false
+  },
+  {
+    "model": "mobilenet_v2",
+    "validation_accuracy": 0.8580375782881002,
+    "validation_macro_f1": 0.8568471060247691,
+    "parameters": 2422468,
+    "training_seconds": 528.0797747689999,
+    "test_accuracy": 0.8477366255144033,
+    "test_macro_precision": 0.8540741285872757,
+    "test_macro_recall": 0.8571943929086786,
+    "test_macro_f1": 0.8482994319811765,
+    "inference_ms": 208.17791129998113,
+    "selected": true
+  },
+  {
+    "model": "efficientnet_b0",
+    "validation_accuracy": 0.8392484342379958,
+    "validation_macro_f1": 0.8384240118721479,
+    "parameters": 4214055,
+    "training_seconds": 509.27629706100015,
+    "test_accuracy": 0.8024691358024691,
+    "test_macro_precision": 0.8039824843871975,
+    "test_macro_recall": 0.8130282415996701,
+    "test_macro_f1": 0.8029883581336221,
+    "inference_ms": 373.43722709997564,
+    "selected": false
+  }
+]

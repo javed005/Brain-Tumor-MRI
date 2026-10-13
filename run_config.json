@@ -1,0 +1,17 @@
+{
+  "data": "/content/mri_dataset/Tumour",
+  "output": "artifacts",
+  "models": [
+    "custom_cnn",
+    "mobilenet_v2",
+    "efficientnet_b0"
+  ],
+  "epochs": 12,
+  "fine_tune_epochs": 3,
+  "unfreeze_layers": 30,
+  "batch_size": 32,
+  "image_size": 224,
+  "seed": 42,
+  "weights": "imagenet",
+  "resolved_dataset_root": "/content/mri_dataset/Tumour"
+}

@@ -1,0 +1,5 @@
+actual_class,glioma,meningioma,no_tumor,pituitary
+glioma,77,0,0,0
+meningioma,63,0,0,0
+no_tumor,49,0,0,0
+pituitary,54,0,0,0
