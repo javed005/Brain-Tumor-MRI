@@ -1,0 +1,37 @@
+{
+  "dataset": "Labeled MRI Brain Tumor Dataset Version 1",
+  "assigned_folder_url": "https://drive.google.com/drive/folders/1C9ww4JnZ2sh22I-hbt45OR16o4ljGxju?usp=sharing",
+  "inventory_read_date": "2026-10-12",
+  "attribution": "Dataset README identifies Roboflow user Ali Rostami and CC BY 4.0; labeling claims not independently verified.",
+  "train": {
+    "images": 1695,
+    "counts": {
+      "glioma": 564,
+      "meningioma": 358,
+      "no_tumor": 335,
+      "pituitary": 438
+    }
+  },
+  "validation": {
+    "images": 502,
+    "counts": {
+      "glioma": 161,
+      "meningioma": 124,
+      "no_tumor": 99,
+      "pituitary": 118
+    }
+  },
+  "test": {
+    "images": 246,
+    "counts": {
+      "glioma": 80,
+      "meningioma": 63,
+      "no_tumor": 49,
+      "pituitary": 54
+    }
+  },
+  "train_validation_source_name_overlap": 97,
+  "train_test_source_name_overlap": 57,
+  "validation_test_source_name_overlap": 10,
+  "note": "Counts are original CSV inventory counts. Training removes pixel duplicates and source families; actual retained counts are computed during your run. Source overlap counts are pairwise and must not be added."
+}
